@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "niixmb",
+  "version": "1.0.0",
+
+  "name": "NiixMB",
+  "description": "NiixMB e um hack para minecraft, criado por um amador.",
+  "authors": [
+    "Bolindiatum#8398"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.niixmb.main.NiixMB"
+    ]
+  },
+  "mixins": [
+    "mixins.niixmb.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
